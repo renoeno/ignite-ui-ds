@@ -7,6 +7,13 @@ export default {
     args: {
         src: "https://github.com/renoeno.png",
         alt: "Reno eno"
+    },
+    argTypes: {
+        src: {
+            control: {
+                type: 'text',
+            }
+        }
     }
 } as Meta<AvatarProps>
 

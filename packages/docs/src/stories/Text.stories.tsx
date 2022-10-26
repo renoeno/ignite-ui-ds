@@ -5,7 +5,16 @@ export default {
     title: 'Typography/Text',
     component: Text,
     args: {
+        size: 'md',
         children: 'Mollitia exercitationem dolore aliquam expedita corrupti, qui cumque dolores impedit voluptatem, incidunt nulla!'
+    },
+    argTypes: {
+        size: {
+            options: ['xxs','xs','sm','md','lg','xl','2xl','4xl','5xl','6xl','7xl','8xl','9xl'],
+            control: {
+                type: 'select'
+            }
+        },
     }
 } as Meta<TextProps>
 

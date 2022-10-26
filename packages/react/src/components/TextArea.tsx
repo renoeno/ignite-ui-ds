@@ -35,3 +35,5 @@ export const TextArea = styled('textarea', {
         color: '$gray400'
     },
 })
+
+TextArea.displayName = 'TextArea';
