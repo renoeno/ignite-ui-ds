@@ -1,0 +1,2 @@
+import{A as t}from"./index.d1c77303.js";import"./index.c85fd6fe.js";import"./iframe.509d1eec.js";import"./index.4bad10f6.js";import"./jsx-runtime.c90ca2dd.js";const i={title:"Data display/Avatar",component:t,args:{src:"https://github.com/renoeno.png",alt:"Reno eno"},argTypes:{src:{control:{type:"text"}}}},n={},p={args:{src:void 0}},c=["Primary","WithFallback"];export{n as Primary,p as WithFallback,c as __namedExportsOrder,i as default};
+//# sourceMappingURL=Avatar.stories.ab64b3a8.js.map
